@@ -21,7 +21,11 @@ public class CustomList {
     }
 
     public void deleteCity(City city) {
-        // Leave blank for now to ensure the test fails
+        if (cities.contains(city)) {
+            cities.remove(city);
+        } else {
+            throw new IllegalArgumentException("City not found");
+        }
     }
 
 }
