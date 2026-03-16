@@ -19,4 +19,9 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+    public void deleteCity(City city) {
+        // Leave blank for now to ensure the test fails
+    }
+
 }
