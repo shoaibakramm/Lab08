@@ -28,4 +28,10 @@ public class CustomList {
         }
     }
 
+    public int countCities() {
+        return 0; // Dummy return to fail the test
+    }
+
+
+
 }
